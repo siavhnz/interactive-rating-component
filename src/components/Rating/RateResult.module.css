@@ -1,0 +1,37 @@
+.container {
+    background-color: var(--medium-dark-blue);
+    
+    padding: 1.75rem 1.5rem 2.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.125rem;
+    align-items: center;
+}
+
+.thanks-img {
+    transform: scale(0.89);
+}
+
+.result {
+    font-size: 0.875rem;
+    background-color: var(--light-dark-blue);
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    color: var(--primary);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top:0.375rem;
+}
+
+.desc {
+    font-size: 0.88rem;
+    color: var(--medium-grey);
+    text-align: center;
+    margin-top: -0.625rem;
+    line-height: 1.375rem;
+}

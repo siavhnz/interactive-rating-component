@@ -47,6 +47,8 @@ Users should be able to:
 - Identifying and creating components
   - RateInput, RateResult
 
+- Working on mobile design based on `design` folder and `style-guide.md` file
+
 
 ### Built with
 
@@ -66,7 +68,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com)
+- [cooler.co](https://coolors.co/) - I used this site to generate a color between 2 colors
 
 ## Author
 
