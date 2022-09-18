@@ -4,6 +4,7 @@
     flex-direction: column;
     row-gap: 1.125rem;
     align-items: center;
+    animation: fadeIn 1s;
 }
 
 .thanks-img {
@@ -61,4 +62,9 @@
         margin-top: -1.3rem;
         line-height: 1.5rem;
     }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

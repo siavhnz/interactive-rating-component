@@ -1,7 +1,25 @@
+import { useState } from "react";
 import { ReactComponent as Star } from "../../images/icon-star.svg";
 import styleUtils from "./RateInput.module.css";
 
-const RateInput = () => {
+const RateInput = (props) => {
+  /**
+   * Keep track of user rate
+   * Change background-color of numbers based on this value
+   */
+  const [rateValue, setRateValue] = useState(null);
+
+  // Recreate the component for changing background color
+  const handleRating = (number) => {
+    setRateValue(number);
+  };
+
+  // Send rate to the parent to show the result
+  const submitHandler = (event) => {
+    event.preventDefault();
+    props.onHandleRating(rateValue);
+  };
+
   // Create a range function for generate 5 rating element
   // https://stackoverflow.com/a/10050831/3925013
   const range = (size, startAt = 0) => {
@@ -22,13 +40,22 @@ const RateInput = () => {
       <div className={styleUtils["rating-inputs"]}>
         {range(5, 1).map((number) => {
           return (
-            <div key={number} className={styleUtils["rating-input"]}>
+            <div
+              key={number}
+              className={
+                number === rateValue
+                  ? `${styleUtils["rating-input"]} ${styleUtils.active}`
+                  : styleUtils["rating-input"]
+              }
+              onClick={handleRating.bind(this, number)}
+            >
               {number}
             </div>
           );
         })}
       </div>
       <button
+        onClick={submitHandler}
         className={styleUtils.submit}
         type="button"
         aria-label="submit your rate"

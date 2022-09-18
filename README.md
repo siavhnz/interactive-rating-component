@@ -53,6 +53,9 @@ Users should be able to:
 
 - Adding Rate component to manage rating functionality and common styles 
 
+- Working on React functionality
+
+
 ### Built with
 
 - Semantic HTML5 markup
