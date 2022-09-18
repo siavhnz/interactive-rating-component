@@ -1,10 +1,10 @@
 import "./App.css";
-import RateInput from "./components/Rating/RateInput";
+import Rate from "./components/Rating/Rate";
 
 function App() {
   return (
     <main>
-      <RateInput />
+      <Rate />
     </main>
   );
 }

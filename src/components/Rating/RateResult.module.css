@@ -1,7 +1,5 @@
 .container {
-    background-color: var(--medium-dark-blue);
     padding: 1.75rem 1.5rem 2.5rem;
-    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.125rem;
@@ -37,7 +35,6 @@
 
 @media (min-width: 40em) { /* 640px */
     .container {
-        max-width: 25.825rem;
         border-radius: 2rem;
         padding: 2.75rem 2.5rem 2.8rem 2rem;
         row-gap: 1.75rem;

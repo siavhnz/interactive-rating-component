@@ -51,6 +51,7 @@ Users should be able to:
 
 - Working on desktop desing based on `design` folder and `style-guide.md` file
 
+- Adding Rate component to manage rating functionality and common styles 
 
 ### Built with
 

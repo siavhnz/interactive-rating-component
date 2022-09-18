@@ -1,0 +1,5 @@
+.container {
+    background-color: var(--medium-dark-blue);
+    border-radius: 1rem;
+    max-width: 25.825rem;
+}

@@ -1,5 +1,4 @@
 import { ReactComponent as Star } from "../../images/icon-star.svg";
-import RateResult from "./RateResult";
 import styleUtils from "./RateInput.module.css";
 
 const RateInput = () => {
