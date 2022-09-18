@@ -11,7 +11,7 @@ const RateInput = () => {
   return (
     <article className={styleUtils.container}>
       <div className={styleUtils["star-icon"]}>
-        <Star />
+        <Star focusable="false" aria-hidden="true" />
       </div>
       {/* for sake of accessibility I used H1 in this challenge */}
       <h1 className={styleUtils.title}>How did we do?</h1>

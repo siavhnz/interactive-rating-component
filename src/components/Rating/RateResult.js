@@ -4,7 +4,11 @@ import styleUtils from "./RateResult.module.css";
 const RateResult = () => {
   return (
     <article className={styleUtils.container}>
-      <ThanksSvg className={styleUtils["thanks-img"]} />
+      <ThanksSvg
+        className={styleUtils["thanks-img"]}
+        focusable="false"
+        aria-hidden="true"
+      />
       <span className={styleUtils.result}>You selected 4 out of 5</span>
       <h2 className={styleUtils.title}>Thank you!</h2>
       <p className={styleUtils.desc}>
