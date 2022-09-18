@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.JPG)
 
 ### Links
 
@@ -55,22 +55,29 @@ Users should be able to:
 
 - Working on React functionality
 
+- Completing README.md
+
+- Publish on github.com | nelify.app | frontmentor.io
+
 
 ### Built with
 
+- [React](https://reactjs.org/)
+- [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet) - For styles
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
+React functionality was tricky, passing data and event to children 
+
+and get data from them was the point of this challenge
 
 ### Continued development
+
+Read more React and some day I must read React animation libraries
 
 ### Useful resources
 
@@ -78,12 +85,17 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- github - [@siavhnz](https://www.your-site.com)
+
+- Frontend Mentor - [@siavhnz](https://www.frontendmentor.io/profile/siavhnz)
 
 ## Acknowledgments
 
 Thanks To
 
 [Fuji](https://stackoverflow.com/users/418400/fuji) for this answer to creating [range](https://stackoverflow.com/a/10050831/3925013) in javascript 
+
+[Frontendmentor.io](https://www.frontendmentor.io/challenges) - for their Excitement challenges  
+
+[Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - for such a great extension
+
