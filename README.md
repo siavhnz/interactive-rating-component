@@ -44,6 +44,10 @@ Users should be able to:
 
 - Preparing workflow (Installing React, Adding assets, Prepating README.md)
 
+- Identifying and creating components
+  - RateInput, RateResult
+
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -72,4 +76,6 @@ Users should be able to:
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks To
+
+[Fuji](https://stackoverflow.com/users/418400/fuji) for this answer to creating [range](https://stackoverflow.com/a/10050831/3925013) in javascript 
