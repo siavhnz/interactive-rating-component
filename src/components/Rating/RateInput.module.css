@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    display: none;
 }
 
 .star-icon {
@@ -58,6 +57,7 @@
     line-height: 2.875rem;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .rating-input:hover {
@@ -81,4 +81,63 @@
     margin-top: 0.5rem;
     /* centering text verticaly */
     padding: 0.75rem 0.75rem 0.7rem;
+    transition: all 0.5s ease;
+}
+
+.submit:hover {
+    color:var(--primary);
+    background-color: #fff;
+}
+
+@media (min-width: 40em) { /* 640px */
+
+    .container {
+        max-width: 25.825rem;
+        border-radius: 2rem;
+        padding: 2rem 2.5rem 2rem 2rem;
+        row-gap: 1.75rem;
+    }
+
+    .star-icon {
+        /* for creating a squre div */
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .star-icon > svg {
+        transform: scale(0.9);
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .desc {
+        font-size: 0.9375rem; /* 15px */
+        margin-top: -1.3rem;
+        line-height:1.45rem;
+    }
+
+    .rating-inputs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .rating-input {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 3.25rem;
+        /* for creating circle div with text in middle */
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .submit {
+        font-size: 0.9375rem; /* 15px */
+        margin-top: 0.25rem;
+        /* centering text verticaly */
+        padding: 0.8rem 0.75rem 0.65rem;
+    }
+
 }

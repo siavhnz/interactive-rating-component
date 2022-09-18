@@ -49,6 +49,8 @@ Users should be able to:
 
 - Working on mobile design based on `design` folder and `style-guide.md` file
 
+- Working on desktop desing based on `design` folder and `style-guide.md` file
+
 
 ### Built with
 
