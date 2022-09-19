@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://your-solution-url.com)
-- Live Site: [netlify.app](https://your-live-site-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/interactive-rating-component-QfEaEmAGnB)
+- Live Site: [netlify.app](https://intractive-rating.netlify.app/)
 
 ## My process
 
@@ -71,9 +71,7 @@ Users should be able to:
 
 ### What I learned
 
-React functionality was tricky, passing data and event to children 
-
-and get data from them was the point of this challenge
+React functionality was tricky, passing data and events to children and getting data from them was the point of this challenge
 
 ### Continued development
 
